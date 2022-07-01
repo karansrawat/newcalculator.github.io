@@ -14,9 +14,10 @@ second value: <input type="number" id="secondnum"/><br>
 function calculate() {
 var name = prompt("What is your good name?");
 alert(name + " How are you??");
-var firstnumber = document.getElementById('firstnum').innerHTML.value;
-var secondnumber = document.getElementById('secondnum').innerHTML.value;
-alert(firstnumber + secondnumber);
+var firstnumber = document.getElementById("firstnum");
+var secondnumber = document.getElementById("secondnum");
+var addition = firstnumber+secondnumber;
+alert(addition);
 alert("Ye bhi calculate nahi kar sakta tu");
 }
 </script>
