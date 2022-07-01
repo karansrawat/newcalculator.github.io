@@ -11,8 +11,8 @@ second value: <input type="number" id="secondnum"/><br>
 <button type="button" onclick="calculate()">calculate</button>
 <script>
 function calculate() {
-var firstnumber = document.gelElementbyId('firstnum').innerHTML;
-var secondnumber = document.getElementbyId('secondnum').innerHTML;
+var firstnumber = document.gelElementbyId('firstnum').innerHTML.value;
+var secondnumber = document.getElementbyId('secondnum').innerHTML.value;
 alert(firstnumber + secondnumber);
 alert("Ye bhi calculate nahi kar sakta tu");
 }
