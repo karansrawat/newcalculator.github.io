@@ -10,14 +10,14 @@ first value: <input type="text" id="firstnum"/><br>
 second value: <input type="number" id="secondnum"/><br>
 <button type="button" onclick="calculate()">calculate</button>
 <script>
+var name = prompt("What is your good name?");
+alert(name + " How are you??");
 function calculate() {
-var firstnumber = document.gelElementbyId('firstnum').innerHTML.value;
-var secondnumber = document.getElementbyId('secondnum').innerHTML.value;
+var firstnumber = document.gelElementById('firstnum').innerHTML.value;
+var secondnumber = document.getElementById('secondnum').innerHTML.value;
 alert(firstnumber + secondnumber);
 alert("Ye bhi calculate nahi kar sakta tu");
 }
-var name = prompt("What is your good name?");
-alert(name + " How are you??");
 </script>
 </body>
 </html>
