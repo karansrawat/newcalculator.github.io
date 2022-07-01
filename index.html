@@ -10,11 +10,12 @@ first value: <input type="text" id="firstnum"/><br>
 second value: <input type="number" id="secondnum"/><br>
 <button type="button" onclick="calculate()">calculate</button>
 <script>
+
+function calculate() {
 var name = prompt("What is your good name?");
 alert(name + " How are you??");
-function calculate() {
-var firstnumber = document.gelElementById('firstnum').value;
-var secondnumber = document.getElementById('secondnum').value;
+var firstnumber = document.getElementById('firstnum').innerHTML.value;
+var secondnumber = document.getElementById('secondnum').innerHTML.value;
 alert(firstnumber + secondnumber);
 alert("Ye bhi calculate nahi kar sakta tu");
 }
