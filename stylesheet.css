@@ -1,9 +1,8 @@
 body {
-background-image: url("https://i.pinimg.com/736x/5a/31/83/5a3183c613cf366ab4d7c26ab32360eb.jpg");
+background-image: url("C:\Users\karan singh rawat\Downloads\image.jfif");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: fixed;
+background-position: center;
 color: white;
-}
-background-image {
-    position: absolute;
-    background-repeat: no-repeat;
-    margin: auto;
 }
